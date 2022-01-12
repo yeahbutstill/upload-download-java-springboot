@@ -1,10 +1,12 @@
 package com.yeahbutstill.uploadanddownload.message;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.RequiredArgsConstructor;
+import lombok.NoArgsConstructor;
 
 @Data
-@RequiredArgsConstructor
+@NoArgsConstructor
+@AllArgsConstructor
 public class ResponseFile {
     private String name;
     private String url;

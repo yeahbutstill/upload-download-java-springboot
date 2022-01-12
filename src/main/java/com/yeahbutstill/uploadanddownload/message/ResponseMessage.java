@@ -1,9 +1,11 @@
 package com.yeahbutstill.uploadanddownload.message;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.RequiredArgsConstructor;
+import lombok.NoArgsConstructor;
 
-@RequiredArgsConstructor
+@AllArgsConstructor
+@NoArgsConstructor
 @Data
 public class ResponseMessage {
     private String message;
